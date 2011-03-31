@@ -55,36 +55,63 @@ Change the content, ordering and styling using the templates in the Settings pan
 BiblioShare Elements
 
 [BS_COVERURL_FULL] The web address for the full book cover image provided by the publisher
+
 [BS_COVERURL_THUMBNAIL] The web address for a thumbnail version of the book cover image
+
 [BS_TITLE] Title
+
 [BS_SUBTITLE] Subtitle
+
 [BS_SERIES] Series
+
 [BS_CONTRIBUTOR] The author or contributor
+
 [BS_FORMAT] Format
+
 [BS_PRICECAD] Price in Canadian dollars, if available
+
 [BS_PRICEUSD] Price in US dollars, if available
+
 [BS_PUBLISHER] Publisher
+
 [BS_ISBN13] 13 digit ISBN
+
 [BS_ISBN10] 10 digit ISBN
+
 [BS_PUBLICATIONDATE] Publication date
 
 BookNet Elements
 
 [BN_COVER_FULL] An HTML formatted cover
+
 [BN_COVER_THUMBNAIL] An HTML formatted thumbnail cover
+
 [BN_TITLE] Title: Subtitle
+
 [BN_CONTRIBUTOR] Replaces (CA) with a Canadian flag
+
 [BN_PRICE] Price in Canadian or US dollars, depending on the Country setting on the Options page
+
 [BN_PUBLISHER] Publisher with link to the publisher's website, if provided
+
 [BN_PUBLICATIONDATE] Publication date, formatted as mmm dd, yyyy
+
 [BN_LINK_FINDINLIBRARY] If an OpenURL resolver is provided, this text links to the library catalogue record
+
 [BN_IMAGE_FINDINLIBRARY] If an OpenURL resolver is provided, this image links to the library catalogue record
+
 [BN_COINS] Invisible HTML with book data for integration with applications, e.g., Zotero
+
 [BN_LINK_AMAZON] Link to Amazon by ISBN
+
 [BN_LINK_CHAPTERSINDIGO] Link to Chapters-Indigo by ISBN
+
 [BN_LINK_GOOGLEBOOKS] Link to Google Books by ISBN or title and author
+
 [BN_LINK_LIBRARYTHING] Link to LibraryThing by ISBN or title and author
+
 [BN_LINK_WORLDCAT] Link to WorldCat by ISBN or title and author
+
 [BN_LINK_BOOKFINDER] Link to BookFinder by ISBN or title and author
 
 == Screenshots ==
