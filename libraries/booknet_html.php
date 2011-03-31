@@ -18,7 +18,7 @@ function booknet_html_getTitle($title, $subtitle) {
 function booknet_html_getContributor($contributor) {
 
 	if ($contributor != "") {
-		$url_flag = WP_PLUGIN_URL . '/booknet/canada_flag.png';
+		$url_flag = WP_PLUGIN_URL . '/bnc-biblioshare/canada_flag.png';
 		$html_flag = "<img src='" . $url_flag . "' alt='(CA)' title='(CA)' />";
 		$contributor = str_ireplace('(CA)', $html_flag, $contributor);
 	}
