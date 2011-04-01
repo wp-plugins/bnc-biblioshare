@@ -45,7 +45,7 @@ function booknet_button_validations(booknumber, templatenumber, publisherurl) {
 				// creates the button
 				var button = controlManager.createButton('booknet_button', {
 					title : 'BookNet', // title of the button
-					image : '../wp-content/plugins/booknet/libraries/bnc_button.jpg',  // path to the button's image
+					image : '../wp-content/plugins/bnc-biblioshare/libraries/bnc_button.jpg',  // path to the button's image
 					onclick : function() {
 						// triggers the thickbox
 						var width = jQuery(window).width(), H = jQuery(window).height(), W = ( 720 < width ) ? 720 : width;

@@ -3,7 +3,7 @@
 Plugin Name: BNC BiblioShare
 Plugin URI: http://wordpress.org/extend/plugins/bnc-biblioshare/
 Description: Displays a book's cover image, title, author, and other book data from BiblioShare
-Version: 1.0.1
+Version: 1.0.2
 Author: BookNet Canada
 Author URI: http://www.booknetcanada.ca/
 
