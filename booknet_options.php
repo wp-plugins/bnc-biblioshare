@@ -171,7 +171,7 @@ function saveOption($option_name, $option_value) {
 <tr valign="top">
 <td width="12%"><?php echo BN_OPTIONS_TOKEN_LANG; ?></td>
 <td width="28%"><input type="text" name="<?php echo BN_OPTION_TOKEN_NAME ?>" value="<?php echo $token; ?>" size="50" /></td>
-<td><?php echo BN_OPTIONS_TOKEN_DETAIL_LANG; ?></td>
+<td><?php echo BN_OPTIONS_TOKEN_DETAIL_LANG; ?><a href="http://booknetcanada.ca/index.php?option=com_forme&Itemid=590&fid=11">BiblioShare Developer Token Request Form</a>.</td>
 </tr>
 
 <tr valign="top">
