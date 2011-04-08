@@ -18,7 +18,7 @@ define('BN_BIBLIOSHAREDATAUNAVAILABLE_AUTHOR_LANG', __('BiblioShare Data Unavail
 
 define('BN_NOBOOKDATAFORBOOKNUMBER_LANG', __('No Book Data for this Book Number'));
 define('BN_INVALIDDOMAIN_LANG', __('Invalid domain. The usual value is http://biblioshare.org.'));
-define('BN_INVALIDTOKEN_LANG', __('A user token is required. Get one for free by emailing biblioshare@booknetcanda.ca.'));
+define('BN_INVALIDTOKEN_LANG', __('A user token is required. Get one for free by filling out BookNet Canada\'s request form at token.booknetcanada.ca'));
 define('BN_CURLTIMEOUT_LANG', __('Timeout contacting BiblioShare'));
 define('BN_CURLERROR_LANG', __('Error contacting BiblioShare'));
 define('BN_OLSERVERERROR_LANG', __('BiblioShare Server Error'));
@@ -36,7 +36,7 @@ define('BN_OPTION_TEMPLATE5_LANG', __('Template 5 (citation)'));
 
 define('BN_OPTIONS_USER_LANG', __('User'));
 define('BN_OPTIONS_TOKEN_LANG', __('Token'));
-define('BN_OPTIONS_TOKEN_DETAIL_LANG', __('A user token is required. Get one for free by emailing biblioshare@booknetcanda.ca.'));
+define('BN_OPTIONS_TOKEN_DETAIL_LANG', __("A user token is required. Get one for free by filling out BookNet Canada's "));
 
 define('BN_OPTIONS_COUNTRY_LANG', __('Country'));
 define('BN_OPTIONS_COUNTRY_DETAIL_LANG', __('Country determines if the [BN_PRICE] template element is displayed in Canadian or US dollars. You can also use the [BS_PRICE_CAD] and [BS_PRICE_USD] template elements to show either price.'));

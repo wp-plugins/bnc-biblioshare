@@ -1,9 +1,9 @@
 === BNC BiblioShare ===
-Contributors: johnmiedema
+Contributors: johnmiedema, meghanmac
 Tags: book, books, reading, library, libraries, book covers, COinS, OpenURL, OpenBook, BookNet, BiblioShare
 Requires at least: 2.5.1
 Tested up to: 3.0.1
-Stable tag: trunk
+Stable tag: 1.0.3
 
 Displays a book's cover image, title, author, and other book data from BiblioShare
 
@@ -24,7 +24,7 @@ You can install the plugin through your WordPress plugins menu, or use the follo
 
 Once you have activated the plugin:
 
-1. Enter your user Token ID on the the plugin Settings page. Get one for free by emailing biblioshare@booknetcanda.ca.
+1. Enter your user Token ID on the the plugin Settings page. Get one for free by filling out BookNet Canada's request form at http://token.booknetcanada.ca.
 2. Click Save.
 
 Insert a book:
@@ -95,6 +95,10 @@ BookNet Elements
 4. Customize the display using the plugin's templates.
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Link to BiblioShare Developer Token Request Form added
 
 = 1.0.2 =
 
