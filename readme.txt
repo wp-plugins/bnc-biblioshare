@@ -1,5 +1,5 @@
 === BNC BiblioShare ===
-Contributors: johnmiedema, meghanmac
+Contributors: johnmiedema, meghanmac, kirtim, @kirtim
 Tags: book, books, reading, library, libraries, book covers, COinS, OpenURL, OpenBook, BookNet, BiblioShare
 Requires at least: 2.5.1
 Tested up to: 3.0.1
