@@ -3,7 +3,7 @@ Contributors: johnmiedema, meghanmac, kirtim, @kirtim
 Tags: book, books, reading, library, libraries, book covers, COinS, OpenURL, OpenBook, BookNet, BiblioShare
 Requires at least: 2.5.1
 Tested up to: 3.0.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 
 Displays a book's cover image, title, author, and other book data from BiblioShare
 
