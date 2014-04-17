@@ -1,5 +1,5 @@
 === BNC BiblioShare ===
-Contributors: johnmiedema, meghanmac, kirtim, @kirtim
+Contributors: johnmiedema, meghanmac, kirtim, 
 Tags: book, books, reading, library, libraries, book covers, COinS, OpenURL, OpenBook, BookNet, BiblioShare
 Requires at least: 2.5.1
 Tested up to: 3.0.1
@@ -24,7 +24,7 @@ You can install the plugin through your WordPress plugins menu, or use the follo
 
 Once you have activated the plugin:
 
-1. Enter your user Token ID on the the plugin Settings page. Get one for free by filling out BookNet Canada's request form at http://token.booknetcanada.ca.
+1. Enter your user Token ID on the the plugin Settings page. Get one for free by filling out BookNet Canada's request form at http://www.booknetcanada.ca/get-biblioshare-token.
 2. Click Save.
 
 Insert a book:
@@ -107,3 +107,6 @@ BookNet Elements
 = 1.0.1 =
 
 * Created
+
+
+
