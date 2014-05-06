@@ -43,7 +43,7 @@ function booknet_button_validations(booknumber, templatenumber, publisherurl) {
 		createControl : function(id, controlManager) {
 			if (id == 'booknet_button') {
 				// creates the button
-				var button = controlManager.createButton('booknet_button', {
+				var button = controlManager.addButton('booknet_button', {
 					title : 'BookNet', // title of the button
 					image : '../wp-content/plugins/bnc-biblioshare/libraries/bnc_button.jpg',  // path to the button's image
 					onclick : function() {
