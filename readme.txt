@@ -2,8 +2,8 @@
 Contributors: johnmiedema, meghanmac, kirtim, 
 Tags: book, books, reading, library, libraries, book covers, COinS, OpenURL, OpenBook, BookNet, BiblioShare
 Requires at least: 2.5.1
-Tested up to: 3.0.1
-Stable tag: 1.0.6
+Tested up to: 3.9
+Stable tag: 1.0.7
 
 Displays a book's cover image, title, author, and other book data from BiblioShare
 
@@ -95,6 +95,9 @@ BookNet Elements
 4. Customize the display using the plugin's templates.
 
 == Changelog ==
+= 1.0.7 =
+
+* fix for 3.9 and tinymce upgrade. 
 
 = 1.0.3 =
 

@@ -37,11 +37,12 @@ function booknet_button_validations(booknumber, templatenumber, publisherurl) {
 // closure to avoid namespace collision
 (function(){
 	// creates the plugin
-	tinymce.create('tinymce.plugins.booknet', {
+	  tinymce.PluginManager.add('booknet', function(controlManager, url) {
+	//tinymce.create('tinymce.plugins.booknet', {
 		// creates control instances based on the control's id.
 		// our button's id is "booknet_button"
-		createControl : function(id, controlManager) {
-			if (id == 'booknet_button') {
+		//createControl : function(id, controlManager) {
+			//if (id == 'booknet_button') {
 				// creates the button
 				var button = controlManager.addButton('booknet_button', {
 					title : 'BookNet', // title of the button
@@ -55,13 +56,13 @@ function booknet_button_validations(booknumber, templatenumber, publisherurl) {
 					}
 				});
 				return button;
-			}
-			return null;
-		}
+//			}
+//			return null;
+//		}
 	});
 	
 	// registers the plugin
-	tinymce.PluginManager.add('booknet', tinymce.plugins.booknet);
+//	tinymce.PluginManager.add('booknet', tinymce.plugins.booknet);
 	
 	// executes this when the DOM is ready
 	jQuery(function(){
