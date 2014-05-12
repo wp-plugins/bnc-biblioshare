@@ -37,30 +37,51 @@ function booknet_button_validations(booknumber, templatenumber, publisherurl) {
 // closure to avoid namespace collision
 (function(){
 	// creates the plugin
-	  tinymce.PluginManager.add('booknet', function(controlManager, url) {
-	//tinymce.create('tinymce.plugins.booknet', {
-		// creates control instances based on the control's id.
-		// our button's id is "booknet_button"
-		//createControl : function(id, controlManager) {
-			//if (id == 'booknet_button') {
-				// creates the button
-				var button = controlManager.addButton('booknet_button', {
-					title : 'BookNet', // title of the button
-					image : '../wp-content/plugins/bnc-biblioshare/libraries/bnc_button.jpg',  // path to the button's image
-					onclick : function() {
-						// triggers the thickbox
-						var width = jQuery(window).width(), H = jQuery(window).height(), W = ( 720 < width ) ? 720 : width;
-						W = W - 80;
-						H = H - 84;
-						tb_show( 'BookNet', '#TB_inline?width=' + W + '&height=' + H + '&inlineId=booknet-form' );
-					}
-				});
-				return button;
-//			}
-//			return null;
-//		}
-	});
-	
+	if(tinymce.majorVersion>=4)
+	{
+	      tinymce.PluginManager.add('booknet', function(controlManager, url) {
+
+		    var button = controlManager.addButton('booknet_button', {
+			    title : 'BookNet', // title of the button
+			    image : '../wp-content/plugins/bnc-biblioshare/libraries/bnc_button.jpg',  // path to the button's image
+			    onclick : function() {
+				    // triggers the thickbox
+				    var width = jQuery(window).width(), H = jQuery(window).height(), W = ( 720 < width ) ? 720 : width;
+				    W = W - 80;
+				    H = H - 84;
+				    tb_show( 'BookNet', '#TB_inline?width=' + W + '&height=' + H + '&inlineId=booknet-form' );
+			    }
+		    });
+		    return button;
+	    });
+    }
+    else{
+	    tinymce.create('tinymce.plugins.booknet', {
+		    // creates control instances based on the control's id.
+		    // our button's id is "booknet_button"
+		    createControl : function(id, controlManager) {
+			    if (id == 'booknet_button') {
+				    // creates the button
+				    var button = controlManager.addButton('booknet_button', {
+					    title : 'BookNet', // title of the button
+					    image : '../wp-content/plugins/bnc-biblioshare/libraries/bnc_button.jpg',  // path to the button's image
+					    onclick : function() {
+						    // triggers the thickbox
+						    var width = jQuery(window).width(), H = jQuery(window).height(), W = ( 720 < width ) ? 720 : width;
+						    W = W - 80;
+						    H = H - 84;
+						    tb_show( 'BookNet', '#TB_inline?width=' + W + '&height=' + H + '&inlineId=booknet-form' );
+					    }
+				    });
+				    return button;
+			    }
+			    return null;
+		    }
+	    });
+
+	    // registers the plugin
+	    tinymce.PluginManager.add('booknet', tinymce.plugins.booknet);
+    }
 	// registers the plugin
 //	tinymce.PluginManager.add('booknet', tinymce.plugins.booknet);
 	
