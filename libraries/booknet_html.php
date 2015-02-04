@@ -225,7 +225,7 @@ function booknet_html_getLinkAmazon($isbn) {
 function booknet_html_getLinkChaptersIndigo($title, $isbn) {
 
 	if ($isbn) {
-		$title = str_replace(' ', '+', $title);
+		$title = str_replace(' ', '-', $title);
 		$url = 'http://www.chapters.indigo.ca/books/' . $title . '/' . $isbn . '-item.html';
 	}
 	else { return ""; }
