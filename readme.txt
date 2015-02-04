@@ -38,7 +38,7 @@ By default, the plugin will display a book cover image, title, author, and publi
 
 * Where do I find an ISBN number?
 
-The ISBN for a book is frquently listed in sources of book data, e.g., Amazon.
+The ISBN for a book is frequently listed in sources of book data, e.g., Amazon.
 
 * What happens if BiblioShare is slow, down, or unavailable?
 
@@ -95,7 +95,11 @@ BookNet Elements
 4. Customize the display using the plugin's templates.
 
 == Changelog ==
-= 1.0.7 =
+= 1.0.8 =
+
+* fix Indigo link for multipart titles
+
+=1.0.7 =
 
 * fix for 3.9 and tinymce upgrade. 
 
